@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0%;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+@font-face {
+  font-family: "Satoshi Variable";
+  src: url("./Asset/Satoshi-Variable.ttf") format("truetype");
+  font-weight: 100 900; /* Variable font range */
+  font-style: normal;
+}
+
+body {
+  font-family: "Satoshi Variable", sans-serif;
+  font-weight: 400; /* Default weight */
+}

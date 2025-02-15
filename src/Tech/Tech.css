@@ -1,0 +1,16 @@
+.wholes{
+    height: 600px;
+}
+.whole-whole{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.top-techs h2{
+    color: #3ECF8E;
+    font-size: 42px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}

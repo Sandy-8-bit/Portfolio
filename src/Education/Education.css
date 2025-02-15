@@ -1,0 +1,90 @@
+p {
+    margin: 0%;
+    color: white;
+}
+body{
+   
+    color: white;
+   }
+.education-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+
+.whole{
+    display: flex;
+    flex-direction: column;
+    width: 1260px;
+    height: 350px;
+    gap: 20px;
+    
+}
+.heading-edu{
+    color: #3ECF8E;
+    font-size: 42px;
+   margin-top: 20px;
+   margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.content-edu{
+    display: flex;
+    flex-direction: row;
+    height: 133px;
+    gap: 70px;
+}
+
+.heading-edu{
+    width: 260px;
+    height: 46px;
+    font-size: 42px;
+}
+.first-edu{
+    width: 371px;
+    height: 133px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000c7;
+    font-weight: 100;
+}
+.second-edu{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    gap: 225px;
+    
+}
+
+.sec-fir p {
+    width: 133px;
+    height: 30px;
+    background-color: #092E33; /* Fully transparent background */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ensure text remains visible */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: Add a subtle border */
+}
+
+
+.sec-sec{
+    font-size: 28px;
+    width: 200px;
+}
+.sec-sec h5{
+    margin: 0%;
+}
+.something2{
+    font-size: 24px;
+    width: 517px;
+}
+.something{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

@@ -1,0 +1,145 @@
+.hero-container-profile {
+    display: flex;
+    max-width: 1260px;
+    padding: 28px;
+    justify-content: space-between;
+    align-items: start;
+    align-content: start;
+    row-gap: 10px;
+    align-self: stretch;
+    flex-wrap: wrap;
+    border-radius: 31px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 100px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img-profile {
+    height: 100%;
+    align-content: center;
+}
+
+.hero-text-container-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 34px;
+}
+
+.hero-text-profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 12px;
+}
+
+h2,
+p {
+    margin: 0px;
+}
+
+h1 {
+    color: #fff;
+    text-align: right;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%; /* 46.2px */
+    margin: 0px;
+}
+
+ .hero-text-profile p {
+    color: #fff;
+    text-align: right;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 22px */
+}
+
+.buttons-row-profile {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    gap: 12px;
+}
+
+.contact-button-profile {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 21px;
+    background: #3ecf8e;
+    border: none;
+    color: #092e33;
+    text-align: center;
+    font-family: Satoshi, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+    cursor: pointer;
+    transition: all 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Hover effect */
+.contact-button-profile:hover {
+    background: #2db375; /* Darker green on hover */
+    color: white; /* Change text color */
+    transform: scale(1.05); /* Slight zoom effect */
+    box-shadow: 0 4px 15px rgba(62, 207, 142, 0.3); /* Glowing effect */
+}
+
+
+.learn-button-profile {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 21px;
+    border: 1px solid #3ecf8e;
+    background: #cff9e6;
+    color: #092e33;
+    text-align: center;
+    font-family: Satoshi;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 120%; /* 28.8px */
+}
+
+.picker{
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 40px;
+}
+
+/* Fade-in animation */
+.fade-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  .fade-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
+  }
+  .fade-exit {
+    opacity: 1;
+  }
+  .fade-exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 300ms ease-out, transform 300ms ease-out;
+  }
+  

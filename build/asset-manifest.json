@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a8741925.css",
+    "main.js": "/static/js/main.e8a3b62c.js",
+    "static/js/488.9561f9b8.chunk.js": "/static/js/488.9561f9b8.chunk.js",
+    "static/media/home screen 4.jpg": "/static/media/home screen 4.65a7ecf9a56a383d0813.jpg",
+    "static/media/Link.png": "/static/media/Link.564b90da260d5631c92e.png",
+    "static/media/Ret.svg": "/static/media/Ret.bb081ac32db89b1cd01414eb54c6297b.svg",
+    "static/media/Whats.svg": "/static/media/Whats.f47c6196d5f327c2ff93d8815d05fae8.svg",
+    "static/media/hpic.svg": "/static/media/hpic.df9b63b52df79e8c214f022a0c93ab02.svg",
+    "static/media/github.svg": "/static/media/github.dae8ba8a41cba969cae2e16d1d8211ac.svg",
+    "static/media/Git.png": "/static/media/Git.af52f904724869cb2d30.png",
+    "static/media/hero.png": "/static/media/hero.1b3946f99e536ad693e6.png",
+    "static/media/link.svg": "/static/media/link.148bde6fa9b92710fbc9387c7cd946bb.svg",
+    "static/media/Satoshi-Variable.ttf": "/static/media/Satoshi-Variable.536fda9b164542087fc7.ttf",
+    "static/media/Mail.svg": "/static/media/Mail.19ab323d4bff950154967ce32313840a.svg",
+    "static/media/FINAL.svg": "/static/media/FINAL.1fae456dfac843bdc48e1f2ed5cdcc9f.svg",
+    "index.html": "/index.html",
+    "main.a8741925.css.map": "/static/css/main.a8741925.css.map",
+    "main.e8a3b62c.js.map": "/static/js/main.e8a3b62c.js.map",
+    "488.9561f9b8.chunk.js.map": "/static/js/488.9561f9b8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8741925.css",
+    "static/js/main.e8a3b62c.js"
+  ]
+}

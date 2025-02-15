@@ -1,0 +1,121 @@
+body{
+  font-family: "Montserrat", serif;
+ }
+ 
+ .project-container-sec {
+ 
+      margin: auto;
+      padding: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+    }
+    
+    .section-title-sec {
+      color: #3ECF8E;
+      font-size: 42px;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    
+    .project-card-sec {
+      display: flex;
+      align-items: center;
+      width: 1260px;
+      height: 191px;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 20px;
+      gap: 50px;
+    
+    }
+    
+    .project-left-sec {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-right: 20px;
+      gap: 35px;
+    
+    }
+    .serial-num-sec{
+      display: flex;
+      justify-content: left;
+      padding-bottom: 150px;
+    }
+    .project-id-sec {
+      font-size: 24px;
+      margin-bottom: 10px;
+      color: #ffffffc7;
+      font-weight: 100;
+    }
+    
+    @keyframes rotate360-sec {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+    
+    .project-icon-sec {
+      width: 168px;
+      height: 168px;
+      border-radius: 50%;
+      background-color: black;
+      padding: 10px;
+      
+      /* Apply rotation animation */
+      animation: rotate360-sec 10s linear infinite;
+    }
+    
+    .project-right-sec {
+      flex: 1;
+    }
+    
+    .project-title-sec {
+      display: flex;
+      padding-bottom: 110px;
+      flex-direction: column;
+    }
+    
+    .project-title-sec h2 {
+      font-size: 22px;
+      margin: 0;
+      color: #ffffffca;
+    }
+    
+    .project-link-sec {
+      color: #8A3FFC  ;
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 500;
+    }
+    
+    .project-desc-sec {
+      margin: 10px 0;
+      font-size: 24px;
+      color: #bbb;
+      padding-bottom: 70px;
+    }
+    
+    .learn-more-sec {
+      color: #4EFF8B;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .names-sec h2{
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 20px;
+      padding-left: 50px;
+    }
+    .desc-sec{
+      width:520px;
+      margin-top: 30px;
+    }

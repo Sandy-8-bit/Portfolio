@@ -1,0 +1,76 @@
+.top-nav {
+  display: flex;
+  width: 1260px;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.whole-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.download-cv-button {
+  display: flex;
+  padding: 18px 26px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 15px;
+  background: #3ecf8e;
+  border: none;
+  color: #092e33;
+  font-family: Satoshi, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.download-cv-button:hover {
+  background: #2db375; /* Darker green */
+  color: white; /* Change text color */
+  transform: scale(1.05); /* Slight zoom effect */
+  box-shadow: 0 4px 15px rgba(62, 207, 142, 0.4); /* Soft glow effect */
+}
+
+/* Active (Click) Effect */
+.download-cv-button:active {
+  transform: scale(0.98); /* Slight shrink effect when clicked */
+}
+
+.social-icons-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20.811px;
+}
+@keyframes rgbBorder {
+  0% { border-color: rgb(99, 165, 79); } /* Red */
+  50% { border-color: rgb(0, 0, 0); } /* Yellow */
+  100% { border-color: rgb(99, 165, 79); } /* Red */
+}
+
+.social-icon-button {
+  display: flex;
+  width: 69.371px;
+  height: 69.371px;
+  justify-content: center;
+  align-items: center;
+  gap: 6.937px;
+  border-radius: 20px;
+  background: #202124;
+  border: 3px solid transparent;
+  animation: rgbBorder 3s linear infinite; /* Apply animation */
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon-button:hover {
+  transform: scale(1.1); /* Slight zoom effect on hover */
+}
+

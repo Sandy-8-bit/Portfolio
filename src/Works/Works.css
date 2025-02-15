@@ -1,0 +1,56 @@
+.heading h2{
+    color: #3ECF8E;
+    font-size: 42px;
+  
+   margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.makeitcentre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.cent{
+    margin-left: 80px;
+    
+}
+.sec-ff{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 40px;
+
+}
+.sec-sec p{
+    width: 400px;
+
+}
+.sec-fir a {
+    width: 133px;
+    height: 30px;
+    background-color: #092E33; /* Fully transparent background */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Ensure text remains visible */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: Add a subtle border */
+}
+.somethings{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  
+}
+
+.content-edus{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    gap: 70px;
+}
+
