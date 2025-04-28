@@ -24,7 +24,7 @@ const HeroSections = () => {
       nodeRef={nodeRef}
     >
       <div className="picker" ref={nodeRef}>
-        <div className="mover">
+        
           <div className="hero-container-profile">
             <div className="img-profile">
               <img src={heroPic} alt="pic" />
@@ -43,7 +43,7 @@ const HeroSections = () => {
               </div>
             </div>
           </div>
-        </div>
+       
       </div>
     </CSSTransition>
   );

@@ -1,6 +1,9 @@
+body{
+    font-family: Satoshi;
+}
 .hero-container-profile {
     display: flex;
-    max-width: 1260px;
+    height: 100%;
     padding: 28px;
     justify-content: space-between;
     align-items: start;
@@ -10,7 +13,9 @@
     flex-wrap: wrap;
     border-radius: 31px;
     background: rgba(255, 255, 255, 0.1);
-    margin-left: 100px;
+    width: 100%;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
 img {
@@ -39,28 +44,27 @@ img {
     gap: 12px;
 }
 
-h2,
-p {
+h2, p {
     margin: 0px;
 }
 
 h1 {
     color: #fff;
     text-align: right;
-    font-size: 42px;
+    font-size: clamp(20px, 30px, 42px);
     font-style: normal;
     font-weight: 700;
-    line-height: 110%; /* 46.2px */
+    line-height: 110%;
     margin: 0px;
 }
 
- .hero-text-profile p {
+.hero-text-profile p {
     color: #fff;
     text-align: right;
-    font-size: 20px;
+    font-size: clamp(16px, 18px, 20px);
     font-style: normal;
     font-weight: 500;
-    line-height: 110%; /* 22px */
+    line-height: 110%;
 }
 
 .buttons-row-profile {
@@ -81,23 +85,22 @@ h1 {
     border: none;
     color: #092e33;
     text-align: center;
-    font-family: Satoshi, sans-serif;
-    font-size: 24px;
+    font-family: Satoshi;
+    font-size: clamp(18px, 22px, 24px);
     font-style: normal;
     font-weight: 500;
-    line-height: 120%; /* 28.8px */
+    line-height: 120%;
     cursor: pointer;
-    transition: all 0.3s ease-in-out; /* Smooth transition */
+    transition: all 0.3s ease-in-out;
 }
 
 /* Hover effect */
 .contact-button-profile:hover {
-    background: #2db375; /* Darker green on hover */
-    color: white; /* Change text color */
-    transform: scale(1.05); /* Slight zoom effect */
-    box-shadow: 0 4px 15px rgba(62, 207, 142, 0.3); /* Glowing effect */
+    background: #2db375;
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(62, 207, 142, 0.3);
 }
-
 
 .learn-button-profile {
     display: flex;
@@ -110,36 +113,84 @@ h1 {
     background: #cff9e6;
     color: #092e33;
     text-align: center;
-    font-family: Satoshi;
-    font-size: 24px;
+    font-family: Satoshi, sans-serif;
+    font-size: clamp(18px, 22px, 24px);
     font-style: normal;
     font-weight: 500;
-    line-height: 120%; /* 28.8px */
+    line-height: 120%;
 }
 
-.picker{
-  
+.picker {
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    display: flex;
 }
 
 /* Fade-in animation */
 .fade-enter {
     opacity: 0;
     transform: translateY(20px);
-  }
-  .fade-enter-active {
+}
+.fade-enter-active {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 500ms ease-in-out, transform 500ms ease-in-out;
-  }
-  .fade-exit {
+}
+.fade-exit {
     opacity: 1;
-  }
-  .fade-exit-active {
+}
+.fade-exit-active {
     opacity: 0;
     transform: translateY(20px);
     transition: opacity 300ms ease-out, transform 300ms ease-out;
-  }
-  
+}
+
+/* Responsive: Devices under 500px */
+@media screen and (max-width: 500px) {
+    .hero-container-profile {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .hero-text-container-profile {
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .hero-text-profile {
+        align-items: center;
+        text-align: center;
+    }
+
+    .buttons-row-profile {
+        justify-content: center;
+    }
+
+    .contact-button-profile,
+    .learn-button-profile {
+        width: 100%;
+        border-radius: 9px;
+        font-size: clamp(16px, 18px, 20px);
+    }
+
+    h1 {
+        font-size: clamp(18px, 24px, 30px);
+        text-align: center;
+        width: 100%;
+    }
+
+    .picker{
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .hero-text-profile p {
+        font-size: clamp(14px, 16px, 18px);
+        text-align: center;
+    }
+}

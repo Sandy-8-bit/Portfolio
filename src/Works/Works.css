@@ -1,56 +1,82 @@
-.heading h2{
+.heading h2 {
     color: #3ECF8E;
-    font-size: 42px;
-  
-   margin-bottom: 20px;
+    font-size: clamp(28px, 5vw, 42px);
+    margin-bottom: 20px;
     font-weight: bold;
 }
 
-.makeitcentre{
+.makeitcentre {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
 }
 
-.cent{
-    margin-left: 80px;
-    
+.cent {
+    width: 100%;
 }
-.sec-ff{
-    
+
+.sec-ff {
     display: flex;
     flex-direction: column;
     gap: 100px;
     margin-top: 40px;
-
 }
-.sec-sec p{
-    width: 400px;
 
-}
 .sec-fir a {
     width: 133px;
     height: 30px;
-    background-color: #092E33; /* Fully transparent background */
+    background-color: #092E33;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: white; /* Ensure text remains visible */
-    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: Add a subtle border */
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    font-size: clamp(14px, 3vw, 18px);
+    text-align: center;
 }
-.somethings{
+
+.somethings {
     display: flex;
     flex-direction: column;
     gap: 10px;
-  
 }
 
-.content-edus{
+.content-edus {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    height: 200px;
     gap: 70px;
 }
 
+/* Responsive under 500px */
+@media screen and (max-width: 500px) {
+    .makeitcentre {
+        padding: 20px;
+    }
+
+    .content-edus {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .sec-ff {
+        gap: 25px;
+        margin-top: 20px;
+    }
+
+    .sec-fir a {
+        width: 100%;
+        height: 40px;
+        font-size: clamp(16px, 4vw, 20px);
+    }
+
+    .somethings {
+        gap: 8px;
+    }
+}

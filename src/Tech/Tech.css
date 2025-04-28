@@ -1,11 +1,12 @@
-.wholes{
-    height: 600px;
-}
+
 .whole-whole{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .top-techs h2{
@@ -13,4 +14,10 @@
     font-size: 42px;
     margin-bottom: 20px;
     font-weight: bold;
+}
+
+@media screen and (max-width: 500px) {
+    .whole-whole{
+        padding: 20px;
+    }
 }

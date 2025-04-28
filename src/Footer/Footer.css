@@ -1,61 +1,86 @@
-
 .footer {
-    background-color: #000;
-    color: #ccc;
-    text-align: center;
-    padding: 20px;
-    font-size: 14px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-   
-   
-    width: 1260px;
+  background-color: #000;
+  color: #ccc;
+  text-align: center;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  font-size: clamp(12px, 2vw, 14px); /* Responsive font size */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.makeitc {
+  width: 100%;
+}
+
+.wholeee {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.footer-link {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  font-size: clamp(12px, 2vw, 14px); /* Responsive font size */
+}
+
+.footer-links {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  margin-left: 20px;
+  font-size: clamp(12px, 2vw, 14px); /* Responsive font size */
+}
+
+.footer-link:hover,
+.footer-links:hover {
+  color: #fff;
+}
+
+.footer-text {
+  margin: 0;
+  color: #aaa;
+  font-size: clamp(12px, 2vw, 14px); /* Responsive font size */
+}
+
+.footer-author {
+  font-weight: bold;
+  color: #aaa;
+  font-size: clamp(12px, 2vw, 14px); /* Responsive font size */
+}
+
+/* Mobile responsiveness under 500px */
+@media screen and (max-width: 500px) {
+  .footer {
+      flex-direction: column;
+      padding: 15px;
   }
-  .wholeee{
-    display: flex;
-    justify-content: center;
-  }
+
   .footer-content {
-    display: flex;
-    justify-content: space-between;
-   
-    gap: 15px;
-    flex-wrap: wrap;
-  }
-  .ft-two{
-    margin-left: 630px
-  }
-  .footer-link {
-    color: #aaa;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-  }
-  
-
-  .footer-links{
-    color: #aaa;
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
-    margin-left: 20px;
+      flex-direction: column;
+      gap: 10px;
   }
 
-  .footer-link:hover {
-    color: #fff;
+  .footer-link,
+  .footer-links {
+      font-size: clamp(10px, 4vw, 12px);
   }
-    .footer-links:hover {
-    color: #fff;
-  }
-  .footer-text {
-    margin: 0;
-  }
-  
+
+  .footer-text,
   .footer-author {
-    font-weight: bold;
-    color: #aaa;
+      font-size: clamp(10px, 4vw, 12px);
   }
-  
-
-  .footer-text{
-    color: #aaa;
-  }
+}

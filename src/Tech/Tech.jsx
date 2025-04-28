@@ -9,7 +9,7 @@ const Tech = () => {
             <h2>02 Technologies</h2>
         </div>
         <div className="bottom-tech">
-            <img src={pic} alt='photo'></img>
+            <img src={pic} alt='photoe'></img>
         </div>
       </div>
     </div>

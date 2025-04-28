@@ -2,101 +2,142 @@
 
 .contact-container {
     display: flex;
-    gap: 350px;
+    justify-content: space-between;
     align-items: center;
     color: white;
-    padding: 20px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+
     border-radius: 10px;
-  }
-  
-  .profile-section {
+}
+
+.profile-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-  
-  .profile-name {
+}
+
+.profile-name {
     font-size: 30px;
     font-family: "Press Start 2P", monospace; /* LED Dot Matrix style */
     font-weight: bold;
     color: #3ECF8E;
     letter-spacing: 2px;
-  }
-  
-  .code-symbol {
+}
+
+.code-symbol {
     color: #3ECF8E;
-  }
-  
-  
-  .social-icons {
+}
+
+.social-icons {
     display: flex;
     gap: 40px;
     margin-top: 10px;
-    margin-left: 125PX;
-  }
-  
-  .social-icons img {
+}
+
+.social-icons img {
     width: 45px;
     height: 45px;
     background: rgba(255, 255, 255, 0.1);
     padding: 5px;
     border-radius: 10px;
     transition: transform 0.2s ease-in-out;
-  }
-  .inpt{
+}
+
+.inpt {
     font-size: 20px;
     color: rgba(240, 255, 255, 0.573);
-  }
-  .social-icons img:hover {
+}
+
+.social-icons img:hover {
     transform: scale(1.1);
-  }
-  
-  .message-section {
+}
+
+.message-section {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-  }
-  
-  .message-section label {
+}
+
+.message-section label {
     font-size: 28px;
     margin-bottom: 5px;
-    
-  }
-  
-  .input-container {
+}
+
+.input-container {
     display: flex;
     align-items: center;
     gap: 10px;
-  }
-  
-  .input-container input {
-    width: 420px;
-    
+    flex-wrap: wrap;
+}
+
+.input-container input {
+    max-width: 420px;
+    width: 100%; /* Full width on small screens */
     border: 1px solid #3ECF8E;
     border-radius: 15px;
     background-color: black;
     color: white;
     margin-top: 5px;
-    
-    padding: 18PX 22PX;
-  }
-  
+    padding: 18px 22px;
+}
 
-  
-  .input-container button {
+.input-container button {
     padding: 15px 25px;
     background-color: #3ECF8E;
     color: black;
     border: none;
     border-radius: 15px;
     cursor: pointer;
-    font-size: 20PX;
+    font-size: 20px;
     font-weight: bold;
     font-weight: 100;
-    margin-left: 40px;
-  }
-  
-  .input-container button:hover {
+    width: 100%;
+}
+
+.input-container button:hover {
     background-color: #00cc00;
-  }
-  
+}
+
+/* Mobile Responsiveness (under 500px) */
+@media screen and (max-width: 500px) {
+    .contact-container {
+        flex-direction: column;
+        padding: 15px;
+        gap: 25px;
+    }
+
+    .profile-name {
+        font-size: 18px; /* Adjust font size for smaller screens */
+    }
+
+ 
+
+    .social-icons img {
+        width: 40px;
+        height: 40px;
+    }
+
+    .input-container input {
+        max-width: 100%; /* Full width input */
+        padding: 15px 20px;
+    }
+
+    .input-container button {
+        width: 100%; /* Full width button */
+        margin-left: 0; /* Remove margin-left on small screens */
+        padding: 15px 0;
+    }
+
+    .message-section label {
+        font-size: 20px; /* Adjust label font size */
+    }
+
+    .input-container {
+       
+        gap: 15px; /* Vertical stacking of input fields */
+    }
+}

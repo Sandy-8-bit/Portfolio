@@ -1,8 +1,12 @@
 .top-nav {
   display: flex;
-  width: 1260px;
   justify-content: space-between;
   align-items: center;
+  gap:20px;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
   
 }
 .whole-top{
@@ -10,7 +14,6 @@
   justify-content: center;
   align-items: center;
   padding: 5px;
-
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -72,5 +75,17 @@
 
 .social-icon-button:hover {
   transform: scale(1.1); /* Slight zoom effect on hover */
+}
+
+@media (max-width: 500px) {
+.top-nav{
+  justify-content: center;
+  padding: 20px;
+  padding-bottom: 0;
+}
+
+.download-cv-button {
+  display: none;
+}
 }
 

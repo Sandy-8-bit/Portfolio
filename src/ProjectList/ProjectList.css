@@ -1,17 +1,18 @@
- body{
-  font-family: "Montserrat", serif;
- }
+ 
  
  .project-container {
    
       margin: auto;
-      padding: 20px;
+      
     background-repeat: no-repeat;
     background-size: cover;
       color: white;
-      font-family: Arial, sans-serif;
+      padding-left: 150px;
+      padding-right: 150px;
+      padding-top: 50px;
+      padding-bottom: 50px;
       display: flex;
-      justify-content: center;
+
     }
     
     .section-title {
@@ -24,12 +25,12 @@
     .project-card {
       display: flex;
       align-items: center;
-      width: 1260px;
-      height: 191px;
+      flex-wrap: wrap;
       border-radius: 10px;
-      padding: 20px;
+      font-family: Satoshi;
       margin-bottom: 20px;
       gap: 50px;
+      width: 100%;
     
     }
     
@@ -81,7 +82,7 @@
     
     .project-title {
       display: flex;
-      padding-bottom: 110px;
+      font-family: Satoshi;
       flex-direction: column;
     }
     
@@ -89,6 +90,7 @@
       font-size: 22px;
       margin: 0;
       color: #ffffffca;
+     
     }
     
     .project-link {
@@ -97,12 +99,22 @@
       font-size: 24px;
       font-weight: 500;
     }
+      .sub{
+        width: 100%;
+      }
+
+      .content{
+        width: 100%;
+      }
     
     .project-desc {
       margin: 10px 0;
       font-size: 24px;
       color: #bbb;
-      padding-bottom: 70px;
+      font-family: Satoshi;
+      min-width: auto;
+      max-width: 500px;
+      
     }
     
     .learn-more {
@@ -115,6 +127,13 @@
       font-size: 28px;
       font-weight: bold;
     }
-    .desc{
-      width:520px
+
+    @media screen and (max-width: 500px) {
+
+      .project-card{
+        gap: 5px;
+      }
+      .project-container{
+        padding: 20px;
+      }
     }
