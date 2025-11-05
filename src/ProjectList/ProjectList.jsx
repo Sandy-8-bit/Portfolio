@@ -8,27 +8,27 @@ import roll3 from "./Ret.svg";
 const projects = [
   {
     id: "01",
-    name: "Transport",
-    link: "https://transport-landing-page-mu.vercel.app/",
+    name: "Cinema Booking System",
+    link: "#",
     photo: roll,
     description:
-      "Transportation app's landing page is built with React for a dynamic UI and Web3 for secure, decentralized form submissions. It features a responsive design, real-time updates, and Easy contact with the owner.",
+      "As a Frontend Developer, I built the Cinema Booking System using React.js and Tailwind CSS. Designed a responsive and engaging interface for seat booking, movie browsing, and secure user login with a seamless UX across all devices.",
   },
   {
     id: "02",
-    name: "Weather-app",
-    link: "https://weather-apps-5.onrender.com/",
-    photo: roll2,
+    name: "Payroll Management System",
+    link: "#",
+    photo: roll,
     description:
-      "The Weather App uses Blazor WebAssembly, ASP.NET Core 8, MongoDB, Supabase authentication, OpenWeather API, Gemini AI, Tailwind CSS, JavaScript Interop, state management, server-side caching, and email notifications.",
+      "Developed the complete frontend of the Payroll Management System using React.js, TypeScript, and Tailwind CSS. Implemented employee dashboards, payroll summaries, and admin panels with clean layouts and efficient state management.",
   },
   {
     id: "03",
-    name: "E-commerce",
+    name: "POS Billing Software",
     link: "#",
     photo: roll3,
     description:
-      "The E-Commerce Web App is built using the MERN stack (MongoDB, Express.js, React, Node.js), featuring JWT authentication, Redux state management, and real-time order tracking for a seamless shopping experience.",
+      "Built the frontend for a POS Billing Software using React.js and Tailwind CSS. Focused on real-time billing, product listing, and responsive invoice generation with a modern, intuitive user experience.",
   },
 ];
 
