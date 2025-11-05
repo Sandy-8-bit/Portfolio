@@ -7,7 +7,7 @@ import gmail from "./assets/gmail.png";
 import wp from "./assets/wp.png";
 
 // CV file (Make sure to add your CV in the "public" folder and rename it as "cv.pdf")
-const CV_URL = "/cv.pdf";
+const CV_URL = "/resume.pdf";
 
 // Social media links
 const SOCIAL_LINKS = {
